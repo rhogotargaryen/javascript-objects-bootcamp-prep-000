@@ -1,5 +1,5 @@
-var playlist = { 
-  Hozier: 'Work Song' 
+var playlist = {
+  Hozier: 'Work Song'
 }
 
 function updatePlaylist (object, artist, songTitle) {
