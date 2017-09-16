@@ -2,7 +2,7 @@ var playlist = {
   Hozier: 'Work Song'
 }
 
-function updatePlaylist (object, artist, songTitle) {
-    object.artist = songTitle;
+function updatePlaylist (object, key, value) {
+    object[key] = value;
     return playlist;
   }
