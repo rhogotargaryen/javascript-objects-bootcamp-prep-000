@@ -6,4 +6,3 @@ function updatePlaylist (object, artist, songTitle) {
     object[artist] = songTitle;
     return playlist;
   }
-
