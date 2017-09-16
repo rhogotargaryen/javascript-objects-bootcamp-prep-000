@@ -3,11 +3,7 @@ var playlist = {
 }
 
 function updatePlaylist (object, artist, songTitle) {
-  if (object === playlist) {
     object[artist] = songTitle;
     return playlist;
   }
-  else {
-    return 'please select playlist'
-  }
-}
+
